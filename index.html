@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Countdown timer">
+    <title>Countdown timer</title>
+
+		<link rel="shortcut icon" href="img/favicon/fav48.png" type="image/png">
+		<link rel="apple-touch-icon" href="img/favicon/fav57.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/fav72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/fav100.png">
+  </head>
+
+  <body>
+    <div class="main_container">
+      <h1 class="gradient">Таймер обратного отсчета на JS</h1>
+      <p>Введите значение - количество секунд и нажмите <b>СТАРТ</b></p>
+      <ul>
+        <li>Формат таймера hh:mm:ss.</li>
+        <li>Шаг таймера 1 секунда.</li>
+        <li>Поле ввода c type = "text" воспринимает только цифры 0-9.</li>
+        <li>Диапазон вводимых значений 1-99999.</li>
+        <li>Когда время закончится - обновите страницу.</li>
+      </ul>
+      <br/>
+      <div>
+        <input placeholder="Секунды" type="text" maxlength="5" class="vvod"/>
+        <button type="button" class="btn">СТАРТ</button>
+      </div>
+      <br/>
+        <div class="dynamite">
+        <span class="format">00:00:00</span>
+        </div>
+        <div>
+          <img src="./img/tom-jerry-dynamite-310x310.png" alt="tom-jerry-dynamite">
+        </div>
+  </div>
+
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+  </body>
+</html>

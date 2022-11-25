@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%;
+  }
+
+  h1{
+    font-size: 24px;
+    padding-bottom: 5px;
+  }
+  p{
+    text-align: left;
+  }
+  .gradient{
+    background: linear-gradient(to right, #c8242e, #272425);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  ul{
+    padding-left: 20px;
+  }
+  .main_container{
+    width: 400px;
+    height: 700px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+  }
+
+  .btn {
+    border: 3px solid #c8242e;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #272425;
+    color: #c8242e;
+  }
+  .btn:hover {
+    background-color:#c8242e;
+    color: #272425;
+    border: 3px solid #272425;
+  }
+  .format {
+    position: absolute;
+    top: 313px;
+    left: 95px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    
+  }
+  .vvod{
+    border: 3px solid #c8242e;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    padding: 3px 15px;
+    color: black;
+  }
+  .dynamite{
+    width: 310px;
+    height: 180px;
+    background-image: url(./img/dynamite.png);
+  }
