@@ -16,7 +16,8 @@ Countdown timer in cartoon creative style. It takes a number from 1 to 99999 as 
 Enter a value within the specified range and press START.
 
 ## Troubleshooting:
-The timer is designed for any device with a screen width of 320px. Testing has shown that after the end of the timer, the new specified value is not accepted. To resolve this issue, please refresh the page.
+Testing has shown that after the end of the timer, the new specified value is not accepted. To resolve this issue, please refresh the page.
+The timer may not display correctly in different browsers and on different devices, as the emphasis was on js practice.
 
 ## Author:
 Dmitry Barabash
@@ -44,7 +45,8 @@ HTML, CSS, JavaScript, git.
 Введите значение в указанном диапазоне и нажмите СТАРТ.
 
 ## Диагностика:
-Таймер разработан под любые устройства с шириной экрана от 320px. Тестирование показало, что после окончания работы таймера, новое указанное значение не воспринимается. Чтобы решить эту проблему - обновите страницу. 
+Тестирование показало, что после окончания работы таймера, новое указанное значение не воспринимается. Чтобы решить эту проблему - обновите страницу.
+Таймер может некорректно отображаться в разных браузерах и на разных устройствах, т.к. акцент был на практику js.
 
 ## Автор:
 Дмитрий Барабаш
