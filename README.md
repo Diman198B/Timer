@@ -4,6 +4,8 @@
 
 Countdown timer. Takes a number from 1 to 99999 as input, converts this value into hours, minutes, seconds and starts the countdown in 1 second increments. The timer format is hh:mm:ss. The input field with type = "text" is set to only numbers 0-9.
 
+Привет
+
 <!--  -->
 
 The timer is designed for devices with a screen width of 768px.
@@ -38,6 +40,8 @@ HTML, CSS, JavaScript.
 ## Описание:
 
 Таймер обратного отсчета. Принимает на вход число от 1 до 99999, преобразует это значение в часы, минуты, секунды и запускает обратный отсчет с шагом в 1 секунду. Формат таймера hh:mm:ss. Поле ввода c type = "text" настроено только на цифры 0-9.
+
+Привет
 
 <!--  -->
 
